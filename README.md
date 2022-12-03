@@ -1,3 +1,10 @@
+QUICK QUIZ 
+
+FYMCA Div : B
+Pritesh LIngraj -  1132220957 
+Gayatri Dhanwani - 1132220620
+Mugdha Dahibhate - 1132220563
+
 
 ![Screenshot (140)](https://user-images.githubusercontent.com/92158361/205437472-c35da06f-72a2-4ab2-9e4f-35f782b5dfe6.png)
 ![Screenshot (139)](https://user-images.githubusercontent.com/92158361/205437496-40b547c2-8c35-4ebb-b87e-3ead06c58a13.png)
