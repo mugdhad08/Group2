@@ -1,0 +1,130 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" href="//cdn.perfmatters.io/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/static/css/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/static/css/styles.css">
+  </head>
+  <body class="registration-body";>
+    
+    <nav
+      class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow"
+    >
+      <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 ml-4" href="/quiz/category/"
+        >QUICK QUIZ</a
+      >
+      
+      <ul class="navbar-nav px-3" style="display: flex; flex-direction: row; align-items:center;">
+      <li class="nav-item text-nowrap">
+      <div href="" class="nav-link">
+      <h4 class="text text-capitalize">
+      Hello, {{request.user.username}}
+      </h4>
+      </div>
+      </li>
+        <li class="nav-item text-nowrap mt-3 ml-2">
+          <form action="/logout/" method="post">
+            <input type="hidden" name="csrfmiddlewaretoken" value="WrVaAfEzWIi6t8vduZb1zZgJMIDz3NMrlbLGmMvrdUxGNv5VICSKH9BQksIaY2DX">
+            <input class="btn btn-danger btn-sm ml-5" type="submit" value="Sign out">
+          </form>
+        </li>
+      </ul>
+    </nav>
+    
+<!-- <p style="background-image: url('bg.jpeg');"></p> -->
+<div class="container mt-5">
+<div >
+</div>
+<!-- <p style="background-image: url('b.jpeg');"></p> -->
+<!-- <div id="index-section1">
+
+    <input type="button" class="btn btn-success indexStartButton" id="start-btn" value="Start">
+    <br>
+    <a href="#index-section2" class="btn btn-info categoryButton" id="">Choose Category</a>
+
+    <div class="row">
+    
+    Grid column -->
+    <div class="boxed">
+    <div class="col-md-11 mb-4 mt-5 ml-lg-5">
+        <p class="instructions"><b>Please read the instructions :</b></p>
+        <ul class="list-group">
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-laptop mr-5"></i>I. Click on "Start" button to start the timer.
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-bomb mr-5"></i>II. Click "Choose Category" button to select a category, the quiz will start automatically after you have selected your quiz category.
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="fas fa-code mr-5"></i>III. All the questions are compulsory. Select your answer before clicking "Check" button
+            </li>
+            <li class="list-group-item">
+              <div class="md-v-line"></div><i class="far fa-gem mr-5"></i>IV. Click "Finish" button once done to stop the timer and select "Show Results" button to view your result.
+            </li>
+          </ul>
+    
+    </div>
+</div></div>
+<br>
+<div id="index-section1">
+
+  <input type="button" class="btn btn-success indexStartButton" id="start-btn" value="Start">
+  <a href="#index-section2" class="btn btn-info categoryButton" id="">Choose Category</a>
+ 
+ </div>
+</div>
+ <!-- <div class="row"> -->
+
+<br>
+<div class="boxed" style="padding: 10px;border: 10px solid green;margin: 40;" >
+<div class="container mt-2 pt-2">
+  <h1 class="text-center mt-lg-3"><b>Select a category </b></h1>
+  <div class="row mt-lg-5">
+    
+    <div class="col">
+      <a href="1" class="btn btn-primary btn-lg" 
+        >Java</a>
+
+      <br />
+    </div>
+    
+    <div class="col">
+      <a href="2" class="btn btn-primary btn-lg" 
+        >PYTHON</a>
+
+      <br />
+    </div>
+    
+    <div class="col">
+      <a href="3" class="btn btn-primary btn-lg" 
+        >C PROGRAMMING</a>
+
+      <br />
+    </div>
+    
+  </div>
+</div>
+</div>
+</div>
+<div id="index-section2">   
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/timer.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+  </body>
+</html>
