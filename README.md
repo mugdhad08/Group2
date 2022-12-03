@@ -1,7 +1,7 @@
 QUICK QUIZ 
 
 FYMCA Div : B
-Pritesh LIngraj -  1132220957 
+Pritesh Lingraj -  1132220957 
 Gayatri Dhanwani - 1132220620
 Mugdha Dahibhate - 1132220563
 
